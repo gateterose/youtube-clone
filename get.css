@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+section{
+    background-color: rgb(25, 25, 70);
+    color: bisque;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    background-color: rgb(196, 192, 192);
+    padding: 15px;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+nav input{
+    padding: 10px 145px;
+    border-radius: 20px;
+    border: none;
+}
+.rigth{ 
+    display: flex;
+
+}
+.img1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.img2{
+    width: 40vh;
+    height: 30vh;
+    border-radius: 25%;
+}
+
+.footer{
+    display: flex;
+}
+.button{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+}
+
+.top{
+    padding-left: 40px;
+}
+.top button{
+    padding: 5px 10px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.logo{
+    height: 40px;
+    border-radius: 8px;
+}
+.icon{
+    display: flex;
+}
+.icon p{
+    text-align: left;
+    align-content: flex-start;
+}
