@@ -74,6 +74,7 @@ nav input{
 }
 .icon{
     display: flex;
+}
 
 .icon p{
     text-align: left;
@@ -83,4 +84,8 @@ nav input{
 img{ 
 
     object-fit:cover;
+}
+
+.toggleDisplay { 
+    display: none;
 }
